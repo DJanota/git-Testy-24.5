@@ -1,0 +1,23 @@
+{
+  "name": "24.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:style": "mocha -w -b calculateStylePoints.test.js",
+    "test:distance": "mocha -w -b calculateDistancePoints.test.js",
+    "test:total": "mocha -w -b calculateTotalPoints.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epinefryna/22.5.git"
+  },
+  "keywords": [],
+  "author": "DJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Epinefryna/22.5/issues"
+  },
+  "homepage": "https://github.com/Epinefryna/22.5#readme"
+}
